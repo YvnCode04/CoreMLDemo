@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE77B85F2C5D1BB500114906 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE77B85E2C5D1BB500114906 /* Extensions.swift */; };
+		DE77B8612C5D1BF300114906 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE77B8602C5D1BF300114906 /* GoogLeNetPlaces.mlmodel */; };
 		DE77CC462C5CE7C000CEF86D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE77CC452C5CE7C000CEF86D /* AppDelegate.swift */; };
 		DE77CC482C5CE7C000CEF86D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE77CC472C5CE7C000CEF86D /* SceneDelegate.swift */; };
 		DE77CC4A2C5CE7C000CEF86D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE77CC492C5CE7C000CEF86D /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE77B85E2C5D1BB500114906 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
+		DE77B8602C5D1BF300114906 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		DE77CC422C5CE7C000CEF86D /* CoreMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE77CC452C5CE7C000CEF86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE77CC472C5CE7C000CEF86D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		DE77CC442C5CE7C000CEF86D /* CoreMLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DE77B8602C5D1BF300114906 /* GoogLeNetPlaces.mlmodel */,
+				DE77B85E2C5D1BB500114906 /* Extensions.swift */,
 				DE77CC452C5CE7C000CEF86D /* AppDelegate.swift */,
 				DE77CC472C5CE7C000CEF86D /* SceneDelegate.swift */,
 				DE77CC492C5CE7C000CEF86D /* ViewController.swift */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE77CC4A2C5CE7C000CEF86D /* ViewController.swift in Sources */,
+				DE77B8612C5D1BF300114906 /* GoogLeNetPlaces.mlmodel in Sources */,
 				DE77CC462C5CE7C000CEF86D /* AppDelegate.swift in Sources */,
 				DE77CC482C5CE7C000CEF86D /* SceneDelegate.swift in Sources */,
+				DE77B85F2C5D1BB500114906 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
