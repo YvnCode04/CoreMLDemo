@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE77B85F2C5D1BB500114906 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE77B85E2C5D1BB500114906 /* Extensions.swift */; };
 		DE77B8612C5D1BF300114906 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE77B8602C5D1BF300114906 /* GoogLeNetPlaces.mlmodel */; };
 		DE77CC462C5CE7C000CEF86D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE77CC452C5CE7C000CEF86D /* AppDelegate.swift */; };
 		DE77CC482C5CE7C000CEF86D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE77CC472C5CE7C000CEF86D /* SceneDelegate.swift */; };
@@ -15,10 +14,10 @@
 		DE77CC4D2C5CE7C000CEF86D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DE77CC4C2C5CE7C000CEF86D /* Base */; };
 		DE77CC4F2C5CE7C100CEF86D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE77CC4E2C5CE7C100CEF86D /* Assets.xcassets */; };
 		DE77CC522C5CE7C100CEF86D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DE77CC512C5CE7C100CEF86D /* Base */; };
+		DEC560402C5F9A8600749794 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5603F2C5F9A8600749794 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE77B85E2C5D1BB500114906 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
 		DE77B8602C5D1BF300114906 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		DE77CC422C5CE7C000CEF86D /* CoreMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE77CC452C5CE7C000CEF86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		DE77CC4E2C5CE7C100CEF86D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE77CC512C5CE7C100CEF86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE77CC532C5CE7C100CEF86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC5603F2C5F9A8600749794 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 		DE77CC442C5CE7C000CEF86D /* CoreMLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DEC5603F2C5F9A8600749794 /* Extensions.swift */,
 				DE77B8602C5D1BF300114906 /* GoogLeNetPlaces.mlmodel */,
-				DE77B85E2C5D1BB500114906 /* Extensions.swift */,
 				DE77CC452C5CE7C000CEF86D /* AppDelegate.swift */,
 				DE77CC472C5CE7C000CEF86D /* SceneDelegate.swift */,
 				DE77CC492C5CE7C000CEF86D /* ViewController.swift */,
@@ -144,11 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC560402C5F9A8600749794 /* Extensions.swift in Sources */,
 				DE77CC4A2C5CE7C000CEF86D /* ViewController.swift in Sources */,
 				DE77B8612C5D1BF300114906 /* GoogLeNetPlaces.mlmodel in Sources */,
 				DE77CC462C5CE7C000CEF86D /* AppDelegate.swift in Sources */,
 				DE77CC482C5CE7C000CEF86D /* SceneDelegate.swift in Sources */,
-				DE77B85F2C5D1BB500114906 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
